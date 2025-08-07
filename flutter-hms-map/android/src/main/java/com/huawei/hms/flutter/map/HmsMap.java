@@ -111,7 +111,7 @@ public class HmsMap
         pluginBinding.getPlatformViewRegistry()
             .registerViewFactory(VIEW_TYPE,
                 new MapFactory(state, pluginBinding.getBinaryMessenger(), binding.
-                        getActivity(), lifecycle, null,
+                        getActivity(), lifecycle,
                         binding.getActivity().hashCode()));
     }
 
