@@ -73,7 +73,7 @@ import com.huawei.hms.maps.model.animation.TranslateAnimation;
 
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
-import io.flutter.view.FlutterInjector;
+import io.flutter.FlutterInjector;
 
 import org.json.JSONArray;
 import org.json.JSONException;
